@@ -8,10 +8,10 @@ import Link from 'next/link';
   const [menuOpen, setMenuOpen] = useState(false);
   const links=<>
   <Link href="/" className="text-white hover:text-[#fb2c36] text-sm transition-colors">Home</Link>
-        <Link href="/cars" className="text-white hover:text-[#fb2c36] text-sm transition-colors">Cars</Link>
-        <Link href="/brands" className="text-white hover:text-[#fb2c36] text-sm transition-colors">Brands</Link>
-        <Link href="/deals" className="text-white hover:text-[#fb2c36] text-sm transition-colors">Deals</Link>
-        <Link href="/contact" className="text-white hover:text-[#fb2c36] text-sm transition-colors">Contact</Link>
+        <button className="text-white hover:text-[#fb2c36] text-sm transition-colors">Cars</button>
+        <button className="text-white hover:text-[#fb2c36] text-sm transition-colors">Brands</button>
+        <button className="text-white hover:text-[#fb2c36] text-sm transition-colors">Deals</button>
+        <button className="text-white hover:text-[#fb2c36] text-sm transition-colors">Contact</button>
   </>
 
   return (
