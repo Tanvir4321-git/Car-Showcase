@@ -1,6 +1,7 @@
 
 import Image from 'next/image';
 import cardata from '../../../public/CarData.json'
+import Link from 'next/link';
 
 
 const CarListing = async () => {
@@ -8,7 +9,7 @@ const CarListing = async () => {
 
 
   return (
-    <section className="bg-[#0d0d0d] py-20 px-6 md:px-20">
+    <section id='browse' className="bg-[#0d0d0d]  py-20 px-6 md:px-20">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-extrabold text-white">
           Our Car <span className="text-red-500">Collection</span>
@@ -33,9 +34,11 @@ const CarListing = async () => {
                 <span className="text-red-500 font-bold">{car.price}</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-5">{car.description}</p>
-              <button className="w-full bg-red-500 hover:bg-red-600 text-white text-sm font-semibold py-2.5 rounded-lg transition-colors">
+              <Link href={`/car/${car.id}`}>
+              <button  className="w-full bg-red-500 hover:bg-red-600 text-white text-sm font-semibold py-2.5 rounded-lg transition-colors">
                 View Details
               </button>
+              </Link>
             </div>
           </div>
         ))}

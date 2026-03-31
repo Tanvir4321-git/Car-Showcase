@@ -1,5 +1,6 @@
 import React from 'react';
 import bgimage from '../../../public/bg.png'
+import Link from 'next/link';
 
 const HeroSection = () => {
     return (
@@ -8,9 +9,9 @@ const HeroSection = () => {
 
                 <h1 className='text-3xl  md:text-8xl text-center font-extrabold text-white tracking-widest'>Find Your  <span className='text-[#fb2c36]'>Dream Car</span></h1>
                  {/* CTA Button */}
-        <button className="md:mt-20 mt-10 bg-[#fb2c36] hover:bg-red-700 text-white  font-semibold px-4 md:px-8 py-2 rounded-lg tracking-widest transition-colors md:text-2xl  text-sm ">
+        <a href='#browse' className="md:mt-20 mt-10 bg-[#fb2c36] hover:bg-red-700 text-white  font-semibold px-4 md:px-8 py-2 rounded-lg tracking-widest transition-colors md:text-2xl  text-sm ">
           Browse Cars
-        </button>
+        </a>
             </div>
         </div>
     );

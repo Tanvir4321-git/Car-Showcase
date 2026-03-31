@@ -30,9 +30,9 @@ import Link from 'next/link';
       </div>
 
       {/* CTA Button */}
-      <button className="hidden md:block bg-red-500 hover:bg-transparent hover:border-red-500 hover:border text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
+      <a href='#browse' className="hidden md:block  bg-red-500 hover:bg-transparent hover:border-red-500 hover:border text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
         Browse Cars
-      </button>
+      </a>
 
       {/* Hamburger */}
       <button className="md:hidden text-white text-xl" onClick={() => setMenuOpen(!menuOpen)}>
@@ -43,9 +43,9 @@ import Link from 'next/link';
       {menuOpen && (
         <div className="absolute top-16 left-0 right-0 bg-black  border-t  border-white/10 flex flex-col p-4 gap-3 md:hidden">
         {links}
-          <button className="mt-2 bg-red-500 text-white text-sm font-semibold py-2 rounded-lg">
+          <a href='#browse'className="mt-2 bg-red-500 text-white text-sm font-semibold py-2 rounded-lg">
             Browse Cars
-          </button>
+          </a>
         </div>
       )}
 

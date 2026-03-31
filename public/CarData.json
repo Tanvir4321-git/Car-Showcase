@@ -7,10 +7,19 @@
     "brand": "BMW",
     "description": "A high-performance luxury sedan with twin-turbo V8 engine.",
     "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80",
-    "mileage": "13 mpg city / 21 mpg highway",
-    "engine": "4.4L Twin-Turbo V8",
-    "horsepower": "617 hp",
-    "transmission": "8-Speed Automatic"
+    "details": {
+      "fullDescription": "The BMW M5 is the pinnacle of performance sedans. Built with a hand-assembled twin-turbo V8 engine, it delivers blistering acceleration while maintaining everyday comfort. With M xDrive all-wheel drive, adaptive suspension, and a sport-tuned chassis, the M5 is equally at home on a race track or a daily commute.",
+      "features": {
+        "brand": "BMW",
+        "engine": "4.4L Twin-Turbo V8",
+        "horsepower": "617 hp",
+        "mileage": "13 mpg city / 21 hwy",
+        "transmission": "8-Speed Automatic",
+        "drivetrain": "AWD",
+        "seats": "5",
+        "year": "2024"
+      }
+    }
   },
   {
     "id": 2,
@@ -19,10 +28,19 @@
     "brand": "Mercedes",
     "description": "Sleek sports car with handcrafted AMG engine and premium interior.",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80",
-    "mileage": "15 mpg city / 22 mpg highway",
-    "engine": "4.0L Biturbo V8",
-    "horsepower": "523 hp",
-    "transmission": "7-Speed Automatic"
+    "details": {
+      "fullDescription": "The Mercedes-AMG GT is a masterpiece of engineering and design. Every AMG GT engine is hand-built by a single engineer, delivering raw power wrapped in stunning styling. The interior features premium leather, cutting-edge technology, and a driver-focused cockpit that makes every journey unforgettable.",
+      "features": {
+        "brand": "Mercedes",
+        "engine": "4.0L Biturbo V8",
+        "horsepower": "523 hp",
+        "mileage": "15 mpg city / 22 hwy",
+        "transmission": "7-Speed Automatic",
+        "drivetrain": "RWD",
+        "seats": "2",
+        "year": "2024"
+      }
+    }
   },
   {
     "id": 3,
@@ -31,10 +49,19 @@
     "brand": "Audi",
     "description": "Powerful fastback with quattro all-wheel drive and sporty design.",
     "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&q=80",
-    "mileage": "15 mpg city / 22 mpg highway",
-    "engine": "4.0L Twin-Turbo V8",
-    "horsepower": "591 hp",
-    "transmission": "8-Speed Automatic"
+    "details": {
+      "fullDescription": "The Audi RS7 blends breathtaking performance with the practicality of a fastback body. Its quattro all-wheel drive system and adaptive air suspension provide confidence in all conditions. The interior is a showcase of Audi's MMI technology with dual touchscreens and premium Bang & Olufsen sound.",
+      "features": {
+        "brand": "Audi",
+        "engine": "4.0L Twin-Turbo V8",
+        "horsepower": "591 hp",
+        "mileage": "15 mpg city / 22 hwy",
+        "transmission": "8-Speed Automatic",
+        "drivetrain": "AWD",
+        "seats": "5",
+        "year": "2024"
+      }
+    }
   },
   {
     "id": 4,
@@ -43,10 +70,19 @@
     "brand": "Porsche",
     "description": "Iconic sports car with rear-engine layout and razor-sharp handling.",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
-    "mileage": "18 mpg city / 25 mpg highway",
-    "engine": "3.0L Twin-Turbo Flat-6",
-    "horsepower": "443 hp",
-    "transmission": "8-Speed PDK"
+    "details": {
+      "fullDescription": "The Porsche 911 is one of the most iconic sports cars ever built. Its unique rear-engine layout gives it a driving feel unlike anything else on the road. With decades of motorsport heritage, the 911 delivers a perfect balance of everyday usability and track-ready performance.",
+      "features": {
+        "brand": "Porsche",
+        "engine": "3.0L Twin-Turbo Flat-6",
+        "horsepower": "443 hp",
+        "mileage": "18 mpg city / 25 hwy",
+        "transmission": "8-Speed PDK",
+        "drivetrain": "RWD",
+        "seats": "4",
+        "year": "2024"
+      }
+    }
   },
   {
     "id": 5,
@@ -55,10 +91,19 @@
     "brand": "Lamborghini",
     "description": "Super SUV combining Lamborghini DNA with everyday usability.",
     "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?w=600&q=80",
-    "mileage": "12 mpg city / 17 mpg highway",
-    "engine": "4.0L Twin-Turbo V8",
-    "horsepower": "641 hp",
-    "transmission": "8-Speed Automatic"
+    "details": {
+      "fullDescription": "The Lamborghini Urus redefines the SUV segment by infusing supercar DNA into a practical yet ferocious machine. With a twin-turbo V8, active torque vectoring, and four selectable drive modes, the Urus is as capable on a track as it is on a mountain road. Its bold Italian design turns heads everywhere.",
+      "features": {
+        "brand": "Lamborghini",
+        "engine": "4.0L Twin-Turbo V8",
+        "horsepower": "641 hp",
+        "mileage": "12 mpg city / 17 hwy",
+        "transmission": "8-Speed Automatic",
+        "drivetrain": "AWD",
+        "seats": "5",
+        "year": "2024"
+      }
+    }
   },
   {
     "id": 6,
@@ -67,9 +112,18 @@
     "brand": "Ferrari",
     "description": "Mid-rear engined sports car with 710 hp twin-turbo V8 power.",
     "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&q=80",
-    "mileage": "15 mpg city / 19 mpg highway",
-    "engine": "3.9L Twin-Turbo V8",
-    "horsepower": "710 hp",
-    "transmission": "7-Speed Dual-Clutch"
+    "details": {
+      "fullDescription": "The Ferrari F8 Tributo is a tribute to Ferrari's most powerful V8 engines in history. Its mid-rear mounted twin-turbo V8 screams to a 8,000 rpm redline, delivering an intoxicating soundtrack alongside brutal acceleration. Aerodynamic innovations from Ferrari's XX programme make it the most advanced mid-rear engined V8 Ferrari ever.",
+      "features": {
+        "brand": "Ferrari",
+        "engine": "3.9L Twin-Turbo V8",
+        "horsepower": "710 hp",
+        "mileage": "15 mpg city / 19 hwy",
+        "transmission": "7-Speed Dual-Clutch",
+        "drivetrain": "RWD",
+        "seats": "2",
+        "year": "2024"
+      }
+    }
   }
 ]
