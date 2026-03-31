@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="carcover.png" alt="MERN Stack Developer Banner" width="100%">
+</p>
+
 Car-Showcase - Car Showcase Website
 
 📌 Project Purpose
