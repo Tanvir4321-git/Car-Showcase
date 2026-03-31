@@ -15,7 +15,7 @@ import Link from 'next/link';
   </>
 
   return (
-    <div className='sticky top-0 z-50  '>
+    <div className=' z-50  '>
 
     <nav className="max-w-11/12 mx-auto  h-16 flex items-center justify-between">
 
@@ -41,7 +41,7 @@ import Link from 'next/link';
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-16 left-0 right-0  border-t border-white/10 flex flex-col p-4 gap-3 md:hidden">
+        <div className="absolute top-16 left-0 right-0 bg-black  border-t  border-white/10 flex flex-col p-4 gap-3 md:hidden">
         {links}
           <button className="mt-2 bg-red-500 text-white text-sm font-semibold py-2 rounded-lg">
             Browse Cars

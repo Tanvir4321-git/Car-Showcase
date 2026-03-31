@@ -1,0 +1,75 @@
+
+[
+  {
+    "id": 1,
+    "name": "BMW M5",
+    "price": "$85,000",
+    "brand": "BMW",
+    "description": "A high-performance luxury sedan with twin-turbo V8 engine.",
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80",
+    "mileage": "13 mpg city / 21 mpg highway",
+    "engine": "4.4L Twin-Turbo V8",
+    "horsepower": "617 hp",
+    "transmission": "8-Speed Automatic"
+  },
+  {
+    "id": 2,
+    "name": "Mercedes AMG GT",
+    "price": "$118,000",
+    "brand": "Mercedes",
+    "description": "Sleek sports car with handcrafted AMG engine and premium interior.",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80",
+    "mileage": "15 mpg city / 22 mpg highway",
+    "engine": "4.0L Biturbo V8",
+    "horsepower": "523 hp",
+    "transmission": "7-Speed Automatic"
+  },
+  {
+    "id": 3,
+    "name": "Audi RS7",
+    "price": "$96,000",
+    "brand": "Audi",
+    "description": "Powerful fastback with quattro all-wheel drive and sporty design.",
+    "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&q=80",
+    "mileage": "15 mpg city / 22 mpg highway",
+    "engine": "4.0L Twin-Turbo V8",
+    "horsepower": "591 hp",
+    "transmission": "8-Speed Automatic"
+  },
+  {
+    "id": 4,
+    "name": "Porsche 911",
+    "price": "$135,000",
+    "brand": "Porsche",
+    "description": "Iconic sports car with rear-engine layout and razor-sharp handling.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+    "mileage": "18 mpg city / 25 mpg highway",
+    "engine": "3.0L Twin-Turbo Flat-6",
+    "horsepower": "443 hp",
+    "transmission": "8-Speed PDK"
+  },
+  {
+    "id": 5,
+    "name": "Lamborghini Urus",
+    "price": "$229,000",
+    "brand": "Lamborghini",
+    "description": "Super SUV combining Lamborghini DNA with everyday usability.",
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?w=600&q=80",
+    "mileage": "12 mpg city / 17 mpg highway",
+    "engine": "4.0L Twin-Turbo V8",
+    "horsepower": "641 hp",
+    "transmission": "8-Speed Automatic"
+  },
+  {
+    "id": 6,
+    "name": "Ferrari F8",
+    "price": "$276,000",
+    "brand": "Ferrari",
+    "description": "Mid-rear engined sports car with 710 hp twin-turbo V8 power.",
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&q=80",
+    "mileage": "15 mpg city / 19 mpg highway",
+    "engine": "3.9L Twin-Turbo V8",
+    "horsepower": "710 hp",
+    "transmission": "7-Speed Dual-Clutch"
+  }
+]
