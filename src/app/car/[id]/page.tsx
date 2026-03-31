@@ -2,7 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import cardata from '../../../../public/CarData.json';
 
-const CarDetails = async ({ params }) => {
+type Props = {
+  params: {
+    id: string;
+  };
+};
+
+
+const CarDetails = async ({ params }: Props) => {
   const { id } = await params;
   const car = cardata.find((car) => car.id == Number(id));
 
