@@ -15,7 +15,7 @@ import Link from 'next/link';
   </>
 
   return (
-    <div className='sticky top-0 z-50 bg-[#0d0d0d]  '>
+    <div className='sticky top-0 z-50  '>
 
     <nav className="max-w-11/12 mx-auto  h-16 flex items-center justify-between">
 
@@ -30,7 +30,7 @@ import Link from 'next/link';
       </div>
 
       {/* CTA Button */}
-      <button className="hidden md:block bg-red-500 hover:bg-red-600 text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
+      <button className="hidden md:block bg-red-500 hover:bg-transparent hover:border-red-500 hover:border text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
         Browse Cars
       </button>
 
@@ -41,7 +41,7 @@ import Link from 'next/link';
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-[#111] border-t border-white/10 flex flex-col p-4 gap-3 md:hidden">
+        <div className="absolute top-16 left-0 right-0  border-t border-white/10 flex flex-col p-4 gap-3 md:hidden">
         {links}
           <button className="mt-2 bg-red-500 text-white text-sm font-semibold py-2 rounded-lg">
             Browse Cars
